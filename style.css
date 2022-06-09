@@ -1,0 +1,210 @@
+:root {
+  --LeagueGotic: url(/src/fonts/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf);
+  --InriaSans400: url(/src/fonts/Inria_Sans/InriaSans-Regular.ttf);
+  --InriaSans700: url(/src/fonts/Inria_Sans/InriaSans-Bold.ttf);
+}
+body {
+  background: #e5e5e5;
+  max-width: 100vw;
+}
+.bg-navbar {
+  background-color: #060644;
+}
+
+.navbar-brand {
+  width: 70%;
+}
+.navbar-logo {
+  width: 200px;
+  max-width: 30vw;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+  margin-right: 5vw;
+}
+
+.ms-custom {
+  margin-left: 14vw;
+}
+.text-home-1 {
+  font-family: var(--InriaSans400);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #fbad18;
+}
+
+.text-home-2 {
+  font-family: var(--leagueGotic);
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: #060644;
+}
+
+.text-home-3 {
+  font-family: var(--leagueGotic);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  color: #060644;
+}
+
+.text-home-4 {
+  font-family: var(--InriaSans400);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+
+.text-home-5 {
+  font-family: var(--InriaSans400);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+
+.img-card-icons {
+  max-height: 80px;
+  width: auto;
+}
+.image-container {
+}
+
+.text-card-1 {
+  font-family: var(--leagueGotic);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #060644;
+}
+
+.text-title-1 {
+  font-family: var(--leagueGotic);
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #060644;
+}
+
+.btn-book {
+  font-family: var(--InriaSans700);
+  font-size: 24px;
+  line-height: 29px;
+  height: 50px;
+  letter-spacing: 0em;
+  font-weight: 700;
+  text-align: left;
+  margin-top: -80px;
+}
+
+.map {
+  width: 600px;
+  height: 300px;
+  max-width: 90vw;
+}
+
+.carousel2 img{
+  object-fit: contain;
+  height: 40vh;
+  margin: 10px;
+}
+
+footer{
+  background-color: #060644;
+  height: 30vh;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 3;
+    margin: 0;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: #333333;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -60px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+
+.slick-next
+{
+    right: -60px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
