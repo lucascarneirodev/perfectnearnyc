@@ -1,438 +1,624 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PKCF9JQ');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PKCF9JQ");
+    </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Perfect Near NYC</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKCF9JQ" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PKCF9JQ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <nav
-        class="d-flex flex-wrap p-4 navbar-dark justify-content-center justify-content-md-between navbar navbar-expand-lg bg-navbar">
-        <a class="navbar-brand d-flex align-items-center col-lg-3 mb-2 text-decoration-none justify-content-end px-2"
-            href="#">
-            <img src="./src/icons/logo.png" alt="Hostel Perfect Near NYC" class="navbar-logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#acommodations">Acommodations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#rules" class="nav-link active">Rules and Policies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#contact" class="nav-link active">Contact Us</a>
-                </li>
-            </ul>
-        </div>
+      class="d-flex flex-wrap p-1 navbar-dark justify-content-center justify-content-md-between navbar navbar-expand-lg bg-navbar"
+    >
+      <a
+        class="navbar-brand d-flex align-items-center col-lg-3 mb-2 text-decoration-none justify-content-end px-2"
+        href="#"
+      >
+        <img
+          src="./src/icons/logo.png"
+          alt="Hostel Perfect Near NYC"
+          class="navbar-logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#acommodations">Acommodations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#rules" class="nav-link active"
+              >Rules and Policies</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact" class="nav-link active"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <section id="home" class="">
-        <div class="container-fluid row col-12 m-0 p-0">
-            <div class=" container-fluid d-flex flex-wrap col-sm align-items-center justify-content-center ">
-                <div class="col-lg-7 p-lg-0 pt-5 m-md-0 m-lg-0">
-                    <p class="text-home-1  text-center text-lg-start">A NEW CONCEPT IN HOSTELS FOR A NEW WAY OF
-                        TRAVELLING</p>
-                    <p class="text-home-2 text-center text-lg-start mt-5">LIVE LIKE A LOCAL,<br>
-                        STAY SAFE, NETWORK<br>
-                        AND MORE</p>
-                </div>
-                <div class="col-lg-7 row d-flex flex-wrap mt-0">
-                    <form action="https://booking.hqbeds.com.br/perfectnearnyc/" target="_blank">
-                        <button class="btn btn-warning btn-lg rounded-5 px-5 w-auto mb-5 mt-4 mt-md-0 btn-book">
-                            book now
-                        </button>
-                    </form>
-                </div>
-            </div>
+      <div class="container-fluid row col-12 m-0 p-0">
+        <div
+          class="container-fluid d-flex flex-wrap col-sm align-items-center justify-content-center"
+        >
+          <div class="col-lg-7 p-lg-0 pt-5 m-md-0 m-lg-0">
+            <p class="text-home-1 text-center text-lg-start">
+              A NEW CONCEPT IN CAPSULE HOSTELS FOR A NEW WAY OF TRAVELLING
+            </p>
+            <p class="text-home-2 text-center text-lg-start mt-5">
+              SLEEP SMART, STAY SAFE,<br />
+              CONNECT WITH TRAVELERS,<br />
+              AND LIVE LIKE A LOCAL
+            </p>
+          </div>
+          <div class="col-lg-7 row d-flex flex-wrap mt-0">
+            <form
+              action="https://booking.hqbeds.com.br/perfectnearnyc/"
+              target="_blank"
+            >
+              <button
+                class="btn btn-warning btn-lg rounded-5 px-5 w-auto mb-5 mt-4 mt-md-0 btn-book"
+              >
+                book now
+              </button>
+            </form>
+          </div>
+        </div>
 
-            <div class="col-lg-6 col-sm-12 p-0">
-                <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="/src/home carousel/1.1.jpeg" class="d-block w-100" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/src/home carousel/8.1.jpeg" class="d-block w-100" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/src/home carousel/3.1.jpeg" class="d-block w-100" alt="">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlides"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSlides"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+        <div class="col-lg-6 col-sm-12 p-0">
+          <div
+            id="carouselSlides"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/src/home carousel/1.1.jpeg"
+                  class="d-block w-100"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/src/home carousel/8.1.jpeg"
+                  class="d-block w-100"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/src/home carousel/3.1.jpeg"
+                  class="d-block w-100"
+                  alt=""
+                />
+              </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselSlides"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselSlides"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-        <div class="row p-0 m-5 pt-5 pb-5">
-            <div class="col-12 col-lg-5 d-flex flex-wrap p-0 pb-5 p-md-5 align-items-center">
-                <p class="text-home-3 ms-md-5 ms-sm-5 ">AN AMAZING LOCATION TO CALL HOME NEAR NEW YORK CITY</p>
-                <p class="text-home-4 ms-md-5 ms-sm-5">Try a new form of experiencing the city, meet people from all
-                    around the
-                    world and visit new york
-                    city’s best spots easily.</p>
-            </div>
-            <div class="col d-flex flex-wrap align-items-center justify-content-center">
-                <div class="responsive-map d-inline-flex ">
-                    <iframe class="map" title="map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15808.128453178006!2d-74.15084497758461!3d40.73232567234114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c253f325e55465%3A0x7a0dcc02c905018a!2s37%20Lexington%20St%2C%20Newark%2C%20NJ%2007105%2C%20USA!5e0!3m2!1sen!2sbr!4v1742404287745!5m2!1sen!2sbr"
-                        frameborder="0" style="border:0" allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
+      </div>
+      <div class="row p-0 m-5 pt-5 pb-5">
+        <div
+          class="col-12 col-lg-5 d-flex flex-wrap p-0 pb-5 p-md-5 align-items-center"
+        >
+          <p class="text-home-3 ms-md-5 ms-sm-5">
+            AN AMAZING LOCATION TO CALL HOME NEAR NEW YORK CITY
+          </p>
+          <p class="text-home-4 ms-md-5 ms-sm-5">
+            Try a new form of experiencing the city, meet people from all around
+            the world and visit new york city’s best spots easily.
+          </p>
         </div>
+        <div
+          class="col d-flex flex-wrap align-items-center justify-content-center"
+        >
+          <div class="responsive-map d-inline-flex">
+            <iframe
+              class="map"
+              title="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15808.128453178006!2d-74.15084497758461!3d40.73232567234114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c253f325e55465%3A0x7a0dcc02c905018a!2s37%20Lexington%20St%2C%20Newark%2C%20NJ%2007105%2C%20USA!5e0!3m2!1sen!2sbr!4v1742404287745!5m2!1sen!2sbr"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="acommodations" class="d-flex">
-        <div class="container">
-            <div class="row ms-5 flex-row d-flex align-items-center">
-                <p class="text-home-3 col-sm-12 col-md-12 col-xs-12 col-lg-2 justify-content-center">OUR PLACE</p>
-                <p class="text-home-5 col-sm-5 align-items-center">Perfect Near NYC facilities</p>
-            </div>
-            <div class="container d-flex align-items-start flex-wrap justify-content-center">
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="">
-                                <img src="/src/icons/security-system.png" alt="">
-                            </div>
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                Security system</p>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                The building counts with modern
-                                security systems such as cameras as
-                                password locked door.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="">
-                                <img src="/src/icons/washing-machine.png" alt="">
-                            </div>
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                Washing and drying Machines</p>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                Tidy up your clothes whenever you
-                                need with washing and drying
-                                machines we provide at our place, no need for paying to wash your clothes somewhere
-                                else.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="">
-                                <img src="/src/icons/folded.png" alt="">
-                            </div>
-                            <div class="ms-2">
-                                <p
-                                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                    Clean pillow cases and bed sheets
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                We provide clean and sanitized
-                                sealed pillow cases and bed sheets by
-                                the time you arrive so you make sure everything is safe for your health.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="">
-                                <img src="/src/icons/vending-machine.png" alt="">
-                            </div>
-                            <div class="ms-2">
-                                <p
-                                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                    Vending machine</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                A vending machine is available
-                                indoors so you can quickly grab a
-                                snack whenever you feel like you want some!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="carousel2" id="accomodationsImg">
-                    <img src="src/carousel/1.jpeg" alt="">
-                    <img src="src/carousel/2.jpeg" alt="">
-                    <img src="src/carousel/3.jpeg" alt="">
-                    <img src="src/carousel/4.jpeg" alt="">
-                    <img src="src/carousel/5.jpeg" alt="">
-                    <img src="src/carousel/6.jpeg" alt="">
-                    <img src="src/carousel/7.jpeg" alt="">
-                    <img src="src/carousel/8.jpeg" alt="">
-                    <img src="src/carousel/9.jpeg" alt="">
-                    <img src="src/carousel/10.jpeg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-12 row d-flex justify-content-center mt-5">
-                <form action="https://booking.hqbeds.com.br/perfectnearnyc/" class="justify-content-center d-flex pt-5"
-                    target="_blank">
-                    <button class="btn btn-warning btn-lg rounded-5 px-5 w-auto btn-book">
-                        book now
-                    </button>
-                </form>
-            </div>
+      <div class="container">
+        <div class="row ms-5 flex-row d-flex align-items-center">
+          <p
+            class="text-home-3 col-sm-12 col-md-12 col-xs-12 col-lg-2 justify-content-center"
+          >
+            OUR PLACE
+          </p>
+          <p class="text-home-5 col-sm-5 align-items-center">
+            Perfect Near NYC facilities
+          </p>
         </div>
+        <div
+          class="container d-flex align-items-start flex-wrap justify-content-center"
+        >
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="">
+                  <img src="/src/icons/security-system.png" alt="" />
+                </div>
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                >
+                  Security system
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  The building counts with modern security systems such as
+                  cameras as password locked door.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="">
+                  <img src="/src/icons/washing-machine.png" alt="" />
+                </div>
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                >
+                  Washing and drying Machines
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  Tidy up your clothes whenever you need with washing and drying
+                  machines we provide at our place, no need for paying to wash
+                  your clothes somewhere else.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="">
+                  <img src="/src/icons/folded.png" alt="" />
+                </div>
+                <div class="ms-2">
+                  <p
+                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                  >
+                    Clean pillow cases and bed sheets
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  We provide clean and sanitized sealed pillow cases and bed
+                  sheets by the time you arrive so you make sure everything is
+                  safe for your health.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="">
+                  <img src="/src/icons/vending-machine.png" alt="" />
+                </div>
+                <div class="ms-2">
+                  <p
+                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                  >
+                    Vending machine
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  A vending machine is available indoors so you can quickly grab
+                  a snack whenever you feel like you want some!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="carousel2" id="accomodationsImg">
+            <img src="src/carousel/1.jpeg" alt="" />
+            <img src="src/carousel/2.jpeg" alt="" />
+            <img src="src/carousel/3.jpeg" alt="" />
+            <img src="src/carousel/4.jpeg" alt="" />
+            <img src="src/carousel/5.jpeg" alt="" />
+            <img src="src/carousel/6.jpeg" alt="" />
+            <img src="src/carousel/7.jpeg" alt="" />
+            <img src="src/carousel/8.jpeg" alt="" />
+            <img src="src/carousel/9.jpeg" alt="" />
+            <img src="src/carousel/10.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-12 row d-flex justify-content-center mt-5">
+          <form
+            action="https://booking.hqbeds.com.br/perfectnearnyc/"
+            class="justify-content-center d-flex pt-5"
+            target="_blank"
+          >
+            <button
+              class="btn btn-warning btn-lg rounded-5 px-5 w-auto btn-book"
+            >
+              book now
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
 
     <section id="abouthostels">
-        <div class="container">
-            <div class="row mx-3  flex-row d-flex align-items-left">
-                <h2 class="text-title-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-left">New to hostels?
-                </h2>
-                <p class="text-home-5 col-sm-12 align-items-left">Check out the answers to the frequently asked
-                    questions
-                    about hostels.</p>
+      <div class="container">
+        <div class="row mx-3 flex-row d-flex align-items-left">
+          <h2
+            class="text-title-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-left"
+          >
+            New to hostels?
+          </h2>
+          <p class="text-home-5 col-sm-12 align-items-left">
+            Check out the answers to the frequently asked questions about
+            hostels.
+          </p>
+        </div>
+        <div
+          class="container d-flex align-items-start flex-wrap justify-content-center"
+        >
+          <div class="col-12 p-3 d-flex flex-wrap">
+            <div class="col-12 d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start"
+                >
+                  What is a capsule hostel?
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start"
+                >
+                  A capsule hostel is a unique and modern type of accommodation
+                  that offers private, compact sleeping pods (capsules) while
+                  providing shared common spaces. It’s a budget-friendly option
+                  that allows you to meet travelers from around the world,
+                  making it perfect for longer stays and social networking.
+                </p>
+              </div>
             </div>
-            <div class="container d-flex align-items-start flex-wrap justify-content-center">
-                <div class="col-12 p-3 d-flex flex-wrap">
-                    <div class="col-12 d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start">
-                                What is a hostel?</p>
-                        </div>
-                        <div>
-                            <p class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start">
-                                A hostel is a type of accommodation that matches better, cheaper and longer visits also
-                                allowing you to network and meet new people from all around the world.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start">
-                                What is the difference between a hostel and a hotel?</p>
-                        </div>
-                        <div>
-                            <p class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start">
-                                To stay in a hostel is a better financial and social option. Perfect Near NYC Hostel
-                                costs less and is equally safe while offering the structure that you need to stay for as
-                                long as you need: make your own food, wash your clothes and connect with others.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start">
-                                Are hostels safe?</p>
-                        </div>
-                        <div>
-                            <p class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start">
-                                In Perfect Near NYC our guests can rely on our many security facilities and rules to
-                                enjoy their trip and relax.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-12 d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start"
+                >
+                  What is the difference between a capsule hostel and a hotel?
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start"
+                >
+                  A capsule hostel offers a more affordable and social
+                  experience compared to a traditional hotel. While hotels
+                  provide private rooms, capsule hostels feature compact,
+                  private sleeping pods with shared amenities like kitchens,
+                  lounges, and bathrooms. This setup is perfect for
+                  budget-conscious travelers who want to connect with others and
+                  enjoy a comfortable, safe, and functional space.
+                </p>
+              </div>
             </div>
+            <div class="col-12 d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start"
+                >
+                  Are capsule hostels safe?
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-start"
+                >
+                  Absolutely! At Perfect Near NYC Capsule Hostel, we prioritize
+                  your safety with advanced security measures, including secure
+                  access systems, personal lockers, and 24/7 staff availability.
+                  Our capsules are designed for privacy and comfort, ensuring
+                  you can relax and enjoy your stay worry-free.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="rules">
-        <div class="container">
-            <div class="container d-flex align-items-start flex-wrap justify-content-center">
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="col-2">
-                                <img class="col-12" src="/src/icons/rule00.png" alt="">
-                            </div>
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                Silence</p>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                Silence is guaranteed between 22:00 and 8:00, we have noise sensors to ensure compliance
-                                with the standard.
-                            </p>
-                        </div>
-                    </div>
+      <div class="container">
+        <div
+          class="container d-flex align-items-start flex-wrap justify-content-center"
+        >
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="col-2">
+                  <img class="col-12" src="/src/icons/rule00.png" alt="" />
                 </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="col-2">
-                                <img class="col-12" src="/src/icons/rule01.png" alt="">
-                            </div>
-                            <p class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                No smoking</p>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                Smoking is not allowed inside or in front of the property.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="col-2">
-                                <img class="col-12" src="/src/icons/rule02.png" alt="">
-                            </div>
-                            <div class="ms-2">
-                                <p
-                                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                    Kitchen rules
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                The kitchen must be always kept clean.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="col-2">
-                                <img class="col-12" src="/src/icons/rule03.png" alt="">
-                            </div>
-                            <div class="ms-2">
-                                <p
-                                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                    Safety standards</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                Visitors are not allowed. The front door can not be left unlocked.
-                                It’s forbidden to store or use alcohol or drugs inside the property.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-3 d-flex">
-                    <div class="col d-flex flex-wrap">
-                        <div class="d-flex align-items-start align-items-center">
-                            <div class="col-2">
-                                <img class="col-12" src="/src/icons/rule04.png" alt="">
-                            </div>
-                            <div class="ms-2">
-                                <p
-                                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4">
-                                    Common use Rules</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p
-                                class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5">
-                                To leave personal belongings on the floor is not allowed.
-                                It is not allowed to leave personal objects inside the bathroom and the guest must dress
-                                appropriately at common areas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 row d-flex justify-content-center justify-content-lg-start mt-5">
-                    <form action="https://booking.hqbeds.com.br/perfectnearnyc/" target="_blank">
-                        <button class="btn btn-warning btn-lg rounded-5 px-5 w-auto mb-5 btn-book">
-                            book now
-                        </button>
-                    </form>
-                </div>
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                >
+                  Silence
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  Silence is guaranteed between 22:00 and 8:00, we have noise
+                  sensors to ensure compliance with the standard.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="col-2">
+                  <img class="col-12" src="/src/icons/rule01.png" alt="" />
+                </div>
+                <p
+                  class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                >
+                  No smoking
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  Smoking is not allowed inside or in front of the property.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="col-2">
+                  <img class="col-12" src="/src/icons/rule02.png" alt="" />
+                </div>
+                <div class="ms-2">
+                  <p
+                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                  >
+                    Kitchen rules
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  The kitchen must be always kept clean.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="col-2">
+                  <img class="col-12" src="/src/icons/rule03.png" alt="" />
+                </div>
+                <div class="ms-2">
+                  <p
+                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                  >
+                    Safety standards
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  Visitors are not allowed. The front door can not be left
+                  unlocked. It’s forbidden to store or use alcohol or drugs
+                  inside the property.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 d-flex">
+            <div class="col d-flex flex-wrap">
+              <div class="d-flex align-items-start align-items-center">
+                <div class="col-2">
+                  <img class="col-12" src="/src/icons/rule04.png" alt="" />
+                </div>
+                <div class="ms-2">
+                  <p
+                    class="text-card-1 col-sm-12 col-md-12 col-xs-12 col-lg-12 justify-content-center ms-4"
+                  >
+                    Common use Rules
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="text-home-4 col-sm-12 col-md-12 col-xs-12 col-lg-12 text-center text-lg-start ms-lg-5 ps-lg-5"
+                >
+                  To leave personal belongings on the floor is not allowed. It
+                  is not allowed to leave personal objects inside the bathroom
+                  and the guest must dress appropriately at common areas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-12 row d-flex justify-content-center justify-content-lg-start mt-5"
+          >
+            <form
+              action="https://booking.hqbeds.com.br/perfectnearnyc/"
+              target="_blank"
+            >
+              <button
+                class="btn btn-warning btn-lg rounded-5 px-5 w-auto mb-5 btn-book"
+              >
+                book now
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
     <footer class="d-flex flex-wrap" id="contact">
-        <div class="container d-flex flex-wrap center mt-4">
-            <a href="https://www.instagram.com/perfectnearnychostel/" class="mt-auto mb-auto text-decoration-none ">
-                <div class="contacts container d-flex col-2 ms-0 mt-auto mb-auto">
-                    <img src="src/icons/insta.png" alt="">
-                    <p class="h5 m-auto text-light">Instagram</p>
-                </div>
-            </a>
-            <a href="sms:+12017377489" target="_blank" class="mt-auto mb-auto text-decoration-none ">
-                <div class="contacts d-flex col-12 col-lg-6 ms-0 mt-auto mb-auto">
-                    <img src="src/icons/phone.png" class="col-lg-2 col-2" alt="">
-                    <p class="h5 m-auto text-light ms-0">+1 (201) 737-7489</p>
-                </div>
-            </a>
-            <div class="row container d-flex flex-wrap center">
-                <a href="https://maps.app.goo.gl/PQ5FjkGA62Tov97U8" class="text-decoration-none text-light">
-                    <p class="h5">37 Lexington St, Newark, NJ</p>
-                </a>
-            </div>
+      <div class="container d-flex flex-wrap center mt-4">
+        <a
+          href="https://www.instagram.com/perfectnearnychostel/"
+          class="mt-auto mb-auto text-decoration-none"
+        >
+          <div class="contacts container d-flex col-2 ms-0 mt-auto mb-auto">
+            <img src="src/icons/insta.png" alt="" />
+            <p class="h5 m-auto text-light">Instagram</p>
+          </div>
+        </a>
+        <a
+          href="sms:+12017377489"
+          target="_blank"
+          class="mt-auto mb-auto text-decoration-none"
+        >
+          <div class="contacts d-flex col-12 col-lg-6 ms-0 mt-auto mb-auto">
+            <img src="src/icons/phone.png" class="col-lg-2 col-2" alt="" />
+            <p class="h5 m-auto text-light ms-0">+1 (201) 737-7489</p>
+          </div>
+        </a>
+        <div class="row container d-flex flex-wrap center">
+          <a
+            href="https://maps.app.goo.gl/PQ5FjkGA62Tov97U8"
+            class="text-decoration-none text-light"
+          >
+            <p class="h5">37 Lexington St, Newark, NJ</p>
+          </a>
         </div>
-
+      </div>
     </footer>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
     <script src="src/js/script.js"></script>
-</body>
-
+  </body>
 </html>
