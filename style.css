@@ -12,11 +12,16 @@ body {
 }
 
 .navbar-brand {
-  width: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
 .navbar-logo {
   width: 130px;
   max-width: 20vw;
+  display: block;
+  margin-top: -20px;
 }
 
 .navbar-toggler {
